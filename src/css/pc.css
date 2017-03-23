@@ -27,8 +27,16 @@
 
 .container{
   padding-top: 10px;
-  min-width: 1100px
+  min-width: 1100px;
 }
+
+.container_top:after {
+    clear:both;content:'.';
+    display:block;
+    width: 0;
+    height: 0;
+    visibility:hidden;
+} 
 
 .leftContainer {
     width: 400px;
@@ -89,6 +97,7 @@
     padding-left: 10px;
     width: 400px;
     float: left;
+    height: 673px;
 }
 
 .tabs_product {
@@ -121,6 +130,13 @@
 .clearfix{
   margin-top: 20px;
 }
+.clear{
+    clear:both; 
+    height: 0; 
+    line-height: 0; 
+    font-size: 0
+}
+
 
 .ant-tabs-bar {
     margin-bottom: 0 !important;
@@ -133,6 +149,7 @@
 .leftContainer{
   width:400px;
   float: left;
+  height: 673px;
 }
 
 /*image block******START*****/
