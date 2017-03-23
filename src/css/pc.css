@@ -27,6 +27,7 @@
 
 .container{
   padding-top: 10px;
+  min-width: 1100px
 }
 
 .leftContainer {
